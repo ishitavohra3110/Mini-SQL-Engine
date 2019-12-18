@@ -8,8 +8,10 @@ It contains sample queries and the code.
    - Select sum(col1) from table1;
 - Project columns from one or more tables:
   - Select col1, col2 from table1;
-- Select with 'WHERE' condition using one or more tables:
-  - Select col1, col2 from table1 where col1 = 10 AND col2 = 12;
+- Select with 'WHERE' condition from one or more tables:
+  - Select col1, col2 from table1 where col1 = 10;
+- Projecting columns from one or more tables with one JOIN condition:
+   - Select col1,col2 from table1, table2 where table1.col1 = table2.col2
 - Error handling is done wherever necessary.
 
 ### Steps to run the code:
